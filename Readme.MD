@@ -3,12 +3,12 @@
 ## Instalación de Herramientas
 
 ### Antes de iniciar, asegúrate de tener instaladas las siguientes herramientas:
+    - Navegador Google Chrome (https://www.google.com/intl/es_us/chrome/)
 	- Python (https://www.python.org/downloads/) 
 	- Selenium (pip install selenium)
 	- WebDriver para el navegador (Chrome o Firefox)
-		- ChromeDriver (https://sites.google.com/chromium.org/driver/downloads?authuser=0)
-		- GeckoDriver (https://github.com/mozilla/geckodriver/releases)
-		- Asegurarse de que el archivo del WebDriver esté en el PATH o en el mismo directorio del proyecto.
+		- ChromeDriver (https://googlechromelabs.github.io/chrome-for-testing/#stable)
+		- Asegurarse de que el archivo del WebDriver.exe esté en el PATH o en el mismo directorio del proyecto.
 		- Behave para Cucumber con Python (pip install behave)
 		- Cucumber para casos de prueba con Gherkin (Esto ya viene con Behave.)
 
