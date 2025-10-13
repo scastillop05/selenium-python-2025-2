@@ -93,7 +93,21 @@ behave features/shopping_cart.feature
 A continuación se presentan dos ejercicios prácticos que los estudiantes deberán realizar durante el taller. Estos están diseñados para reforzar conceptos clave como la interacción con elementos web, localización por selectores y verificación de resultados.
 
 ---
-## 🧪 Ejercicio 1: Buscar una película en IMDb y validar su calificación
+## 🧪 Ejercicio 1: Buscar un artista en last.fm y validar la fecha de su ultimo lanzamiento
+### 💡 Sitio:
+https://www.last.fm
+
+### 🎯 Escenario:
+Buscar al artista “Bruno Mars”, abrir el primer resultado y verificar que en la página se muestre correctamente la fecha de su ultimo lanzamiento.
+
+### ✅ Requisitos que practican:
+- Interacción con un campo de búsqueda real
+- Navegación entre resultados
+- Uso de diferentes tipos de selectores (ID, XPATH, CSS)
+- Validación de texto
+- Estructuración básica de un flujo de prueba
+
+## 🧪 Ejercicio 2: Buscar una película en IMDb y validar su calificación
 ### 💡 Sitio:
 https://www.imdb.com
 
@@ -106,17 +120,3 @@ Buscar la película “Inception”, abrir el primer resultado y verificar que e
 - Uso de diferentes tipos de selectores (ID, XPATH, CSS)
 - Validación de texto y valores numéricos
 - Estructuración básica de un flujo de prueba
-
-## 🧪 Ejercicio 2: Buscar un producto en MercadoLibre y validar su precio
-### 💡 Sitio:
-https://www.mercadolibre.com.co
-
-### 🎯 Escenario:
-Buscar “audífonos”, seleccionar el primer resultado y validar que en la página del producto se muestra un título y un precio válidos.
-
-### ✅ Requisitos que practican:
-- Automatización de una búsqueda en una web real
-- Navegación hacia un resultado específico
-- Uso de selectores por nombre, clase o XPATH
-- Validación de texto y presencia de elementos
-- Comprensión de flujo completo: búsqueda → selección → validación
