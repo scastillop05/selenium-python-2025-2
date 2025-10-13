@@ -125,33 +125,31 @@ pip install selenium behave
 A continuación se presentan dos ejercicios prácticos que los estudiantes deberán realizar durante el taller. Estos están diseñados para reforzar conceptos clave como la interacción con elementos web, localización por selectores y verificación de resultados.
 
 ---
-
-## 🧪 Ejercicio 1: Verificar el título de un artículo en Wikipedia
-
+## 🧪 Ejercicio 1: Buscar una película en IMDb y validar su calificación
 ### 💡 Sitio:
-[https://es.wikipedia.org](https://es.wikipedia.org)
+https://www.imdb.com
 
 ### 🎯 Escenario:
-Buscar el término **"Python (lenguaje de programación)"** y verificar que el título del artículo mostrado sea correcto.
+Buscar la película “Inception”, abrir el primer resultado y verificar que en la página se muestre correctamente el título y la calificación (rating).
 
 ### ✅ Requisitos que practican:
-- Búsqueda
-- Localización por nombre y clase
-- Verificación de texto
-- Flujo simple sin login
+- Interacción con un campo de búsqueda real
+- Navegación entre resultados
+- Uso de diferentes tipos de selectores (ID, XPATH, CSS)
+- Validación de texto y valores numéricos
+- Estructuración básica de un flujo de prueba
 
----
-
-## 🧪 Ejercicio 2: Verificar que un producto se puede buscar en MercadoLibre
-
+## 🧪 Ejercicio 2: Buscar un producto en MercadoLibre y validar su precio
 ### 💡 Sitio:
-[https://www.mercadolibre.com.co](https://www.mercadolibre.com.co)
+https://www.mercadolibre.com.co
 
 ### 🎯 Escenario:
-Buscar **“iPhone 13”** y verificar que aparecen resultados que contienen el texto **“iPhone”**.
+Buscar “audífonos”, seleccionar el primer resultado y validar que en la página del producto se muestra un título y un precio válidos.
 
 ### ✅ Requisitos que practican:
-- Búsqueda
-- Localización por clase o xpath
-- Verificación parcial de texto
 
+- Automatización de una búsqueda en una web real
+- Navegación hacia un resultado específico
+- Uso de selectores por nombre, clase o XPATH
+- Validación de texto y presencia de elementos
+- Comprensión de flujo completo: búsqueda → selección → validación
