@@ -88,38 +88,6 @@ behave features/shopping_cart.feature
 
 ---
 
-## 📁 Estructura de Carpetas Sugerida
-
-```
-project/
-├── features/
-│   ├── steps/
-│   │   ├── login_steps.py
-│   │   └── cart_steps.py
-│   ├── login.feature
-│   └── shopping_cart.feature
-├── pages/
-│   ├── base_page.py
-│   ├── login_page.py
-│   └── inventory_page.py
-└── README.md
-```
-
----
-
-## 🛠️ Requisitos
-
-- Python 3.x  
-- Selenium  
-- Behave  
-- WebDriver (Chrome, Firefox, etc.)
-
-Instalación rápida:
-
-```bash
-pip install selenium behave
-```
-
 # 🧑‍🏫 Ejercicios para el Taller de Pruebas Automatizadas con Selenium
 
 A continuación se presentan dos ejercicios prácticos que los estudiantes deberán realizar durante el taller. Estos están diseñados para reforzar conceptos clave como la interacción con elementos web, localización por selectores y verificación de resultados.
@@ -147,7 +115,6 @@ https://www.mercadolibre.com.co
 Buscar “audífonos”, seleccionar el primer resultado y validar que en la página del producto se muestra un título y un precio válidos.
 
 ### ✅ Requisitos que practican:
-
 - Automatización de una búsqueda en una web real
 - Navegación hacia un resultado específico
 - Uso de selectores por nombre, clase o XPATH
